@@ -2,91 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f03a0ab-c582-4524-9d63-9a78e8a6f81d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/src.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-bg-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-content-button.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-content.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-control.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-img.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\carousel.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-h1-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-h1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-h2-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-h2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-height-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-img-2-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-img-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-img-fixed-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-img-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-img.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-inner-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-inner.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-p-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\content-p.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-map-to-network-resource.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-network-resource.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-size.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-sources-folder-allow.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-sources-folder-dektop.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\devtools-sources-folder.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-button.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-image-above.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-new-layer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-open-png.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-opened.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-select-png.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-setting.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-warning-link.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\extension-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-content-1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-content-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-content-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-content-p-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-content-p.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-list-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-list.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-padding-top-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-padding-top.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-width-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-width-fix-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features-width-fix.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\features.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\footer-fixed-final.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\footer-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\footer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\github-button.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-css-code.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-devtool-change.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-embed-font.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-link-stylesheet.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-link.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-new-tab.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-select-font.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-selected-font.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-stylesheet-2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans-stylesheet.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\google-fonts-open-sans.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\install-extension.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\installed-extension.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\photoshop-select-text-layer-font.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\photoshop-select-text-layer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\pixel-perfect-install.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\save-for-web-png-in-project-folder.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\save-for-web-png.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\save-for-web.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\web-developer-font-family.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\train\lesson-11-12\src\images\web-developer-open.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
     </list>
     <ignored path="src.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +27,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6315789">
-              <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.53035146">
+              <caret line="476" column="89" selection-start-line="476" selection-start-column="89" selection-end-line="476" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.84">
+              <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -125,6 +52,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -180,6 +108,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,10 +188,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.84">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789">
-          <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.53035146">
+          <caret line="476" column="89" selection-start-line="476" selection-start-column="89" selection-end-line="476" selection-end-column="89" />
           <folding />
         </state>
       </provider>

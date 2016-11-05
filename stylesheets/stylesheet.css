@@ -71,6 +71,7 @@ summary {
 
 
 article {
+  display: tab
   font-size: 1rem;
   padding-bottom: 1rem;
   border-bottom: solid 1px #ccc;
