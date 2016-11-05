@@ -19,7 +19,7 @@
 <body>
 <header>
     <div class="inner">
-        <h1>Формы. Практика. Таблицы.</h1>
+        <h1>Формы. Таблицы. Практика.</h1>
         <a href="https://github.com/alekskorovin/html-css-practice-4/" class="button">
             <small>открыть на</small>
             GitHub</a>
@@ -33,7 +33,182 @@
                 <a id="forms" class="anchor" href="#forms" aria-hidden="true"><span aria-hidden="true"
                                                                                           class="octicon octicon-link"></span>Формы.</a>
             </h2>
+
+
+            <h3>Доступные формы</h3>
+            <p>
+                Людям с ограниченными возможностями довольно сложно работать с формами, ведь навигация по страницам это одно, а навигация между полями формы это другое. Поэтому добавление номера для каждого элемента форм является не самой плохой идеей.
+            </p>
+            <h4>Навигация по полям</h4>
+            <p>
+                Для полей нужен механизм для навигации без использования таких устройств как мышь. Для облегчения задачи перехода между элементами используются <b>порядковые номера полей</b> и <b>кнопки доступа к полю</b>, это следующие атрибуты которые могут добавляться к отдельным тегам формы а также к тегу <code>legend</code>:
+            </p>
+            <ul>
+                <li><b>tabindex</b> &mdash; атрибут для указания порядкового номера поля.</li>
+                <li><b>accesskey</b> &mdash; атрибут для указания горячей клавиши, при <b>нажатии на которую вместе с Alt Shift</b> (для Windows в Chrome, Firefox) фокус устанавливается на поле с этим атрибутом.</li>
+            </ul>
+            <p data-height="337" data-theme-id="0" data-slug-hash="eBOLLz" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms acessibility" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/eBOLLz/">Forms acessibility</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
+            <h4>Подпись для поля ввода</h4>
+            <p>
+                Каждое поле формы как правло содержит индивидуальную подпись. Эта подпись задаётся тего <b>label</b> с атрибутом <b>for</b> в качестве значения которого указывается значение <b>id</b> полня. Таким образом подпись ассоциируется с соответствующем полем. При клике на подпись с заданным корректным значением атрибута <b>for</b> фокус устанавливается на соответствующее поле ввода.
+            </p>
+            <p data-height="273" data-theme-id="0" data-slug-hash="WoegWe" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms labels" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/WoegWe/">Forms labels</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p>
+                Если тег <b>label</b> включает в себя поле, то можно не указывать атрибут <b>for</b> и при клике на текст, поле так же будет автоматически в фокусе. При этом так же не нужно указывать атрибут <b>id</b> для полей форм.
+            </p>
+            <p data-height="265" data-theme-id="0" data-slug-hash="RobYze" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms labels without for" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/RobYze/">Forms labels without for</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+            <h4>Наборы полей и легенды</h4>
+
+            <p>
+                Относящиеся к одной по смысле теме поля можно объединять с помощью тега <b>fieldset</b>.
+            </p>
+
+            <p>
+                С помощью вложенного тега <b>legend</b> можно задавать <b>подпись</b> обозначающую к группе полей.
+            </p>
+
+            <p>
+                При задании <b>fieldset</b> и <b>legend</b> вокруг полей появляются дополнительные элементы, вид которых можно изменить с помощью CSS.
+            </p>
+            <p data-height="363" data-theme-id="0" data-slug-hash="KNPGzM" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms fieldsets" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/KNPGzM/">Forms fieldsets</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <h4>Группировка пунктов раскрывающегося списка</h4>
+            <p>Элемент <b>optgroup</b> позволяет сгруппировать опции selectbox-а. Обязательным для этого элемента является атрибут <b>label</b> который отобраается как заголовок над группой элементов, при этом этот заголоовок не может быть выбран.</p>
+            <p data-height="368" data-theme-id="0" data-slug-hash="ENxmBp" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Select optgroup" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/ENxmBp/">Select optgroup</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <h3>HTML5 формы</h3>
+
+            <p>HTML5 существенно расширил дополнительными <b>типами текстовых полей input</b>, несколькими новыми атрибутами и удобным <b>дополнительными элементами</b>.</p>
+
+            <p>Поддержка новых типов полей и дополнительных улучшений HTML5 форм начинается с Internet Explorer 10, для 9-й версии IE необходимо использовать полифилы (для атрибута <b>placeholder</b> например) либо понимать что новые типы полей будут вести себя как обычные текстовые поля.</p>
+
+            <h4>Дополнительные типы текстовых полей</h4>
+
+            <p>В HTML5 список типов элемента <b>input</b> был расширен включением более специфически полей:</p>
+            <h5>Текстовые поля</h5>
+            <ul>
+                <li>
+                    <b>search</b> &mdash; этот тип используется для полей куда вводится текст для поиска, при этом поле ведёт себя как обычное текстовое поле.
+                    <p data-height="112" data-theme-id="0" data-slug-hash="ZBEypo" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type search" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/ZBEypo/">input type search</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>
+                        Основная идея для введения этого типа поля заключалась в возможности с помощью CSS выбора этого элемент с помощью селектора по атрибуту и задание соответствующего стиля:
+                    </p>
+                    <p data-height="265" data-theme-id="0" data-slug-hash="VmwWPw" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type search with style" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/VmwWPw/">input type search with style</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>
+                        Однако кроме этого на мобильных устройствах поменяется клавиатура, и мы увидем значок поиска в списке доступных клавиш:
+                    </p>
+                    <img src="images/Screenshot_search.png" alt="Как выглядит клавиатура на мобильном устройстве при вводе текста в поле с типом search"/>
+                </li>
+                <li>
+                    <b>tel</b> &mdash; для ввода телефонного номера
+                    <p data-height="162" data-theme-id="0" data-slug-hash="mOdwqE" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type phone" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/mOdwqE/">input type phone</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>На настольных компьютерах этот тип поля выглядит по прежнему, однако на мобильных устройствах, если вы попытаетесь ввести в поле текст, вы увидите более соответствующую клавиатуру:</p>
+                    <img src="images/Screenshot_tel.png" alt="Как выглядит клавиатура на мобильном устройстве при вводе текста в поле с типом tel"/>
+                </li>
+                <li>
+                    <b>url</b> &mdash; для ввода веб-адреса:
+                    <p data-height="169" data-theme-id="0" data-slug-hash="gLORKg" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type url" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/gLORKg/">input type url</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>
+                        При этом появляется валидация, встроенная в браузер:
+                    </p>
+                    <img src="images/input-type-url.png" alt="Сообщение об ошибке"/>
+                    <p>
+                        Эту валидацию можно отключить установив для тега <b>form</b> атрибут <b>novalidate</b> с опциональным значением <b>novalidate</b> (novalidate - не проверять).
+                    </p>
+                    <p data-height="171" data-theme-id="0" data-slug-hash="JbjJaP" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type url novalidate" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/JbjJaP/">input type url novalidate</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>
+                        На мобильных устройствах клавиатура снова поменяется:
+                    </p>
+                    <img src="images/Screenshot_url.png" alt="Как выглядит клавиатура на мобильном устройстве для поля ввода типа url"/>
+                </li>
+                <li>
+                    <b>email</b> &mdash; для ввода Email-адресов.
+                    <p data-height="265" data-theme-id="0" data-slug-hash="JbjJVo" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type email" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/JbjJVo/">input type email</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p>
+                        Так же как и для поля <b>url</b>, на поле <b>email</b> без атрибута <b>novalidate</b> на теге <b>form</b> срабатывает валидация:
+                    </p>
+                    <img src="images/input-type-email.png" alt="Валидация встроенная в браузер проверяет значение поля email"/>
+                    <p>
+                        На мобильных устройствах меняется клавиатура:
+                    </p>
+                    <img src="images/Screenshot_email.png" alt="Как выглядит клавиатура на мобильном устройстве для поля ввода типа email"/>
+                </li>
+            </ul>
+            <p>При срабатывании валидации для полей возможно использование CSS3 псевдоклассов <b>:valid</b> и <b>:invalid</b>.</p>
+            <p>Однако для корректной локализации страницы (перевода на различные языки), рекомендуется отключать браузерную валидацию и использовать JavaScript.</p>
+            <p>Проверить поддержку типов полей можно используя сервис <a href="http://caniuse.com/#feat=input-email-tel-url">CanIUse</a>.</p>
+            <h5>Числа и интервалы</h5>
+            <h6>Числа</h6>
+            <p>Простое текстовое поле, которое так же позволяет непосредственно редактировать <b>число</b> или увеличивать/уменьшать значение с заданным шагом (обычно используя стрелки вверх/вниз справа внутри поля если они есть, либо при нажатии вверх/вниз на клавиатуре), можно создать типом <b>number</b>.</p>
+            <p>Атрибут <b>step</b> может задать с каким шагом будет меняться число при его увеличении/уменьшении &mdash; число шага будет прибавляться к числу в поле, либо будет вычитаться из числа в поле.</p>
+            <p>
+                Так же можно задать минимальное и максимальное значение числа с помощью атрибутов <b>min</b> и <b>max</b> соответственно.
+            </p>
+            <p data-height="273" data-theme-id="0" data-slug-hash="LbYwoL" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type number" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/LbYwoL/">input type number</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p>
+                В браузерах, коорые позволяют вводить кроме чисел, другие символы предусмотрена браузерная валидация.
+            </p>
+            <p data-height="304" data-theme-id="0" data-slug-hash="GNgKKB" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type number form validation" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/GNgKKB/">input type number form validation</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p>Так это выглядит в Firefox:</p>
+            <img src="images/input-type-number.png" alt="Так выглядит валидацонное сообщение в поле number в Firefox"/>
+            <p>А так в Chrome:</p>
+            <img src="images/input-type-number-chrome.png" alt="Так выглядит валидацонное сообщение в поле number в Chrome"/>
+            <p>
+                На мобильных устройствах клавиатура для ввода так же меняется:
+            </p>
+            <img src="images/Screenshot_number.png" alt="Как выглядит клавиатура для поля Number"/>
+            <p>
+                Так как срабатывает валидация, для элементов возможно использование псевдоклассов CSS <b>:valid</b> и <b>:invalid</b>.
+            </p>
+            <h6>Интервалы</h6>
+            <p>
+                Альтернативой полю для ввода числа как текста, служит элемент <code class="html">&lt;input type="range"&gt;</code>.
+            </p>
+            <p>
+                По умолчанию он отображается как горизонтальная линия со слайдером в середине. Пользователь может отрегулировать положение ползунка смещая его влево либо вправо, при этом минимальное значение находится слева, максимальное справа. Минимальные и максимальные значения указываются в атрибутах <b>min</b> и <b>max</b>.
+            </p>
+            <p data-height="166" data-theme-id="0" data-slug-hash="QGwLdW" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type range" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/QGwLdW/">input type range</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p>При фокусе на элементе можно менять положение ползунка используя клавиатурные кнопки <b>вверх/вниз</b> либо <b>влево/вправо</b>.</p>
+            <h5>Даты и время</h5>
+            <p>
+                Для ввода даты и времени существует несколько типов полей. Если поле поддерживается в браузере (а они поддерживаются далеко не везде <a href="http://caniuse.com/#search=date">http://caniuse.com/#search=date</a>), то пользователь может ввести дату или время в определённом формате, просто вбив значения, либо увеличивая/уменьшая значения недели/дня/часа/минуты или же сделав выбор в выпадающем календаре.
+            </p>
+            <ul>
+                <li>
+                    <b>datetime</b> &mdash; для ввода и даты и времени.
+                </li>
+                <li>
+                    <b>date</b> &mdash; для ввода даты.
+                </li>
+                <li>
+                    <b>month</b> &mdash; для ввода месяца.
+                </li>
+                <li>
+                    <b>week</b> &mdash; для ввода недели.
+                </li>
+                <li>
+                    <b>week</b> &mdash; для ввода времени.
+                </li>
+                <li>
+                    <b>datetime-local</b> &mdash; для ввода даты и времени в локальных настройках.
+                </li>
+            </ul>
+            <p data-height="580" data-theme-id="0" data-slug-hash="KNwPqd" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input date time" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/KNwPqd/">input date time</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p>Эти типы полей стоит использовать в админ-частях с поддержкой только Chrome либо Edge. В Firefox в настоящее время эти поля не поддерживаются и ведут себя как обычные текстовые поля.</p>
+            <p>Так же имеет смысл использовать эти поля при поддержке мобильных устройств:</p>
+            <img src="images/Screenshot_datetime-inputs.png" alt="Как поля date time выглядят на мобильных устройствах"/>
+            <br/>
+            <img src="images/Screenshot_datetime-inputs-collapsed.png" alt="Как поля date time выглядят на мобильных устройствах в раскрытом"/>
             
+            <h3>Стили и формы</h3>
+
+            <h4>Чекбоксы и радио-кнопоки</h4>
+
+            <h4>Текстовые поля</h4>
+
+            <h4>Select</h4>
+
             <h2>
                 <a id="practice" class="anchor" href="#practice" aria-hidden="true"><span aria-hidden="true"
                                                                                           class="octicon octicon-link"></span>Практика.</a>
@@ -42,6 +217,11 @@
             <h2>
                 <a id="tables" class="anchor" href="#tables" aria-hidden="true"><span aria-hidden="true"
                                                                                           class="octicon octicon-link"></span>Таблицы.</a>
+            </h2>
+
+            <h2>
+                <a id="practice2" class="anchor" href="#practice2" aria-hidden="true"><span aria-hidden="true"
+                                                                                          class="octicon octicon-link"></span>Практика.</a>
             </h2>
 
             
