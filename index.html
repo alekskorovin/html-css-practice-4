@@ -52,7 +52,7 @@
 
             <h4>Подпись для поля ввода</h4>
             <p>
-                Каждое поле формы как правло содержит индивидуальную подпись. Эта подпись задаётся тего <b>label</b> с атрибутом <b>for</b> в качестве значения которого указывается значение <b>id</b> поля. Таким образом подпись ассоциируется с соответствующим полем. При клике на подпись с заданным корректным значением атрибута <b>for</b> фокус устанавливается на соответствующее поле ввода.
+                Каждое поле формы как правло содержит индивидуальную подпись. Эта подпись задаётся тегом <b>label</b> с атрибутом <b>for</b> в качестве значения которого указывается значение <b>id</b> поля. Таким образом подпись ассоциируется с соответствующим полем. При клике на подпись с заданным корректным значением атрибута <b>for</b> фокус устанавливается на соответствующее поле ввода (при этом должен быть выбран английский язык).
             </p>
             <p data-height="273" data-theme-id="0" data-slug-hash="WoegWe" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms labels" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/WoegWe/">Forms labels</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <p>
@@ -76,16 +76,16 @@
             <p data-height="363" data-theme-id="0" data-slug-hash="KNPGzM" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Forms fieldsets" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/KNPGzM/">Forms fieldsets</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h4>Группировка пунктов раскрывающегося списка</h4>
             <p>Элемент <b>optgroup</b> позволяет сгруппировать опции selectbox-а. Обязательным для этого элемента является атрибут <b>label</b> который отображается как заголовок над группой элементов, при этом этот заголовок не может быть выбран.</p>
-            <p data-height="368" data-theme-id="0" data-slug-hash="ENxmBp" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Select optgroup" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/ENxmBp/">Select optgroup</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="400" data-theme-id="0" data-slug-hash="ENxmBp" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Select optgroup" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/ENxmBp/">Select optgroup</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h3>HTML5 формы</h3>
 
             <p>HTML5 существенно расширился дополнительными <b>типами текстовых полей input</b>, несколькими новыми атрибутами и удобным <b>дополнительными элементами</b>.</p>
 
-            <p>Поддержка новых типов полей и дополнительных улучшений HTML5 форм начинается с Internet Explorer 10, для 9-й версии IE необходимо использовать полифилы (для атрибута <b>placeholder</b> например) либо понимать что новые типы полей будут вести себя как обычные текстовые поля.</p>
+            <p>Поддержка новых типов полей и дополнительных улучшений HTML5 форм начинается с Internet Explorer 10, для 9-й версии IE необходимо использовать <a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills">полифилы</a> (<a href="https://remysharp.com/2010/10/08/what-is-a-polyfill">What is a Polyfill? от Remy Sharp</a> (для атрибута <b>placeholder</b> например), либо понимать что новые типы полей будут вести себя как обычные текстовые поля.</p>
 
             <h4>Дополнительные типы текстовых полей</h4>
 
-            <p>В HTML5 список типов элемента <b>input</b> был расширен включением более специфически полей:</p>
+            <p>В HTML5 список типов элемента <b>input</b> был расширен включением более специфических полей:</p>
             <h5>Текстовые поля</h5>
             <ul>
                 <li>
@@ -114,7 +114,7 @@
                     </p>
                     <img src="images/input-type-url.png" alt="Сообщение об ошибке"/>
                     <p>
-                        Эту валидацию можно отключить установив для тега <b>form</b> атрибут <b>novalidate</b> с опциональным значением <b>novalidate</b> (no validate - не проверять).
+                        Эту валидацию можно отключить установив для тега <b>form</b> атрибут <b>novalidate</b> с опциональным (необязательным) значением <b>novalidate</b> (no validate - не проверять).
                     </p>
                     <p data-height="171" data-theme-id="0" data-slug-hash="JbjJaP" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="input type url novalidate" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/JbjJaP/">input type url novalidate</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                     <p>
@@ -191,7 +191,7 @@
                     <b>week</b> &mdash; для ввода недели.
                 </li>
                 <li>
-                    <b>week</b> &mdash; для ввода времени.
+                    <b>time</b> &mdash; для ввода времени.
                 </li>
                 <li>
                     <b>datetime-local</b> &mdash; для ввода даты и времени в локальных настройках.
@@ -250,10 +250,6 @@
                 Атрибуты и элементы HTML5 которые не поддерживаются браузерами соответствуют принципу <strong>gracefull degradation</strong> &mdash; если к примеру атрибут <strong>placeholder</strong> не поддерживается, то он просто не будет отображаться, так же как и элемент <strong>datalist</strong>, в то время как в современных браузерах пользователь сможет использовать новые возможности в полной мере.
             </blockquote>
 
-            <h2>
-                <a id="test" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true"
-                                                                              class="octicon octicon-link"></span>Тест.</a>
-            </h2>
 
             <h3>Стили и формы</h3>
             <p>В CSS3 добавилась возможность использовать селекторы, относящиеся к элементам форм:</p>
@@ -264,7 +260,7 @@
                 </li>
                 <li><b>:enabled</b> &mdash; выбирает элементы не отключенные с помощью атрибута <b>disabled</b>.</li>
                 <li><b>:checked</b> &mdash; позволяет задать стиль элементу: радиокнопке или чекбоксу которые выбраны
-                    <p data-height="555" data-theme-id="0" data-slug-hash="YpPPYQ" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title=":checked" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/YpPPYQ/">:checked</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                    <p data-height="600" data-theme-id="0" data-slug-hash="YpPPYQ" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title=":checked" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/YpPPYQ/">:checked</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                     <p>Псевдокласс <b>:checked</b> в связке с селектором соседства поддерживается с IE9.</p>
                 </li>
             </ul>
@@ -272,7 +268,7 @@
             <p>
                 Использование псевдокласса <b>:checked</b> и селектора для выбора соседнего элемента совместно с псевдоэлементами, позволяет рисовать с помощью CSS собственный вид элементов радиокнопок и чекбоксов.
             </p>
-            <p data-height="630" data-theme-id="0" data-slug-hash="WobbgP" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title=":checked own style of radio and checkbox" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/WobbgP/">:checked own style of radio and checkbox</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="700" data-theme-id="0" data-slug-hash="WobbgP" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title=":checked own style of radio and checkbox" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/alekskorovin/pen/WobbgP/">:checked own style of radio and checkbox</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <p>
                 Использование псевдокласса <b>:checked</b> совместно с элементами <b>input type="checkbox"</b> или <b>input type="radio"</b>, и <b>label</b> для которых можно указать элемент к которому они относятся, позволяет создавать различные компоненты такие как аккордион или вкладки (tabs &mdash; табы):
             </p>
@@ -285,7 +281,7 @@
             <h5>Убрать поведение полей по умолчанию в IE10/IE11/Edge:</h5>
             <p data-height="151" data-theme-id="0" data-slug-hash="woBazb" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Normal input in IE10+" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/woBazb/">Normal input in IE10+</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h5>Задать исчезновение placeholder текста при фокусе</h5>
-            <p data-height="268" data-theme-id="0" data-slug-hash="zoxGNZ" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Normal placeholder" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/zoxGNZ/">Normal placeholder</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="331" data-theme-id="0" data-slug-hash="zoxGNZ" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Normal placeholder" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/zoxGNZ/">Normal placeholder</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h5>Задать цвет и непрозрачность placeholder текста</h5>
             <p data-height="331" data-theme-id="0" data-slug-hash="qqEdrp" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Color placeholder text" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/qqEdrp/">Color placeholder text</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h5>Убрать возможность растягивать и сжимать textarea по горизонтали</h5>
@@ -342,7 +338,7 @@
                 Если посмотреть на код сайта <a href="http://web.archive.org/web/19990116225540/http://mozilla.org/">mozilla.org</a> в 1999-м году, то мы увидем что сайт свёрстан на таблицах. Даже <a href="http://web.archive.org/web/20060104104635/http://www.microsoft.com/">в 2006-м году сайт Microsoft был создан с использованием таблиц</a>.
             </p>
             <p>Таблицы просты в понимании, но их огромный недостаток в том, что они не отрисовываются браузером, пока не будут просчитаны все строки и стлобцы таблицы, и лишь затем таблица сразу отображается. В то же время вёрстка на div-ах или блочная вёрстка позволяет браузеру отрисовывать блоки, по мере нахождения их в коде и сразу же применять стили, по мере нахождения соответствующего стиля.</p>
-            <p>В настоящее время сайты верстают блоками, а <b>таблицы используются для табличных данных и и email-шаблонов</b>.</p>
+            <p>В настоящее время сайты верстают блоками, а <b>таблицы используются для табличных данных и email-шаблонов</b>.</p>
             <h3>Табличные теги</h3>
             <p>
                 Чтобы создать таблицу достаточно использовать всего три тега:
@@ -352,7 +348,7 @@
                 <li><b>tr</b> &mdash; (table row) задаёт строку таблицы внутри которой содержатся ячейки.</li>
                 <li><b>td</b> &mdash; (table data cell) задаёт ячейку таблицы, она находится внутри строки.</li>
             </ul>
-            <p data-height="265" data-theme-id="0" data-slug-hash="mOyJzg" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/mOyJzg/">Table</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="300" data-theme-id="0" data-slug-hash="mOyJzg" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/mOyJzg/">Table</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h4>Ячейки заголовки и header таблицы</h4>
             <p>
                 Чтобы задать заголовок таблицы используется тег <b>thead</b> (table head) внутри которого можно добавлять строки <b>tr</b> и заголовочные ячейки с помощью тега <b>th</b>:
@@ -372,7 +368,7 @@
             <p>
                 Это невидимые элементы которые определяют общие свойства ячеек колонки.
             </p>
-            <p data-height="265" data-theme-id="0" data-slug-hash="eBmpvr" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table caption thead tbody tfoot colgroup col" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/eBmpvr/">Table caption thead tbody tfoot colgroup col</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="320" data-theme-id="0" data-slug-hash="eBmpvr" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table caption thead tbody tfoot colgroup col" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/eBmpvr/">Table caption thead tbody tfoot colgroup col</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h4>Подпись таблицы</h4>
             <p>
                 Можно задавать подпись к таблице используя тег <b>caption</b>
@@ -390,7 +386,7 @@
             <p data-height="465" data-theme-id="0" data-slug-hash="qqEOyz" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table colspan and rowspan" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/qqEOyz/">Table colspan and rowspan</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <h3>Таблица и CSS</h3>
             <p>
-                Для таблицы, элемент <b>table</b> можно задавать рамку (border) и внешний отступ (margin), внутренний отступ задать не получится. Так же можно задавть размер (width, height).
+                Для таблицы, элемента <b>table</b> можно задавать рамку (border) и внешний отступ (margin), внутренний отступ задать не получится. Так же можно задавать размер (width, height).
             </p>
             <p>Можно задавать отдельно стили для строк и для ячеек таблицы &mdash; фоновый цвет и цвет текста, так же шрифт. Отступ можно задавать только внутренний и только для ячеек таблицы <b>td</b> и <b>th</b>.</p>
             <p>
@@ -400,7 +396,7 @@
                 По умолчанию фон таблицы и ячеек прозрачный. Если страница или блок, содержащие таблицу, имеют фон, то он будет просвечиваться сквозь таблицу. Если фон задан и для таблицы и для ячеек, то в местах наложения фона таблицы и ячеек будет виден фон только ячеек.
             </p>
             <p>
-                Для ячеек <b>td</b> и <th>th</th> можно задавать размеры, однако в случае ширины, даже при заданном значении, <b>ширина всегда будет рассчитываться относительно ширины всей таблицы</b>.
+                Для ячеек <b>td</b> и <b>th</b> можно задавать размеры, однако в случае ширины, даже при заданном значении, <b>ширина всегда будет рассчитываться относительно ширины всей таблицы</b>.
             </p>
             <p data-height="333" data-theme-id="0" data-slug-hash="MbYaZq" data-default-tab="html,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table columns width depends on the table" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/MbYaZq/">Table columns width depends on the table</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <p>
@@ -456,7 +452,7 @@
                 <li><b>display: table-column</b> &mdash; <code class="html">&lt;col&gt;</code></li>
                 <li><b>display: table-column-group</b> &mdash; <code class="html">&lt;colgroup&gt;</code></li>
             </ul>
-            <p data-height="564" data-theme-id="0" data-slug-hash="mOyVjp" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table with div and styles" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/mOyVjp/">Table with div and styles</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <p data-height="620" data-theme-id="0" data-slug-hash="mOyVjp" data-default-tab="css,result" data-user="alekskorovin" data-embed-version="2" data-pen-title="Table with div and styles" data-editable="true" class="codepen">See the Pen <a href="https://codepen.io/alekskorovin/pen/mOyVjp/">Table with div and styles</a> by Aleksey Korovin (<a href="http://codepen.io/alekskorovin">@alekskorovin</a>) on <a href="http://codepen.io">CodePen</a>.</p>
             <blockquote>
                 В CSS таблицах невозможно использовать объединение строк и столбцов &mdash; <strong>rowspan</strong> и <strong>colspan</strong>.
             </blockquote>
@@ -486,13 +482,13 @@
                 <li>Открыть страницу <b>service.html</b> в редакторе кода.</li>
                 <li>Удалить все блоки кроме <b>header</b>, <b>hero</b>, <b>footer</b>.</li>
                 <li>После блока <b>hero</b> добавить HTML-код:
-<pre><blockuote class="html">&lt;div class="services"&gt;
+<pre><code class="html">&lt;div class="services"&gt;
 
-&lt;/div&gt;</blockuote></pre>
+&lt;/div&gt;</code></pre>
                 </li>
                 <li>
                     Внутрь блока <b>services</b> добавить HTML-код:
- <pre><blockuote class="html">&lt;div class="services"&gt;
+ <pre><code class="html">&lt;div class="services"&gt;
      &lt;table class="services"&gt;
         &lt;tr&gt;
             &lt;td class="plan-name"&gt;Mobi&lt;/td&gt;
@@ -510,7 +506,7 @@
             &lt;/td&gt;
         &lt;/tr&gt;
      &lt;/table&gt;
- &lt;/div&gt;</blockuote></pre>
+ &lt;/div&gt;</code></pre>
                 </li>
                 <li>
                     Продублировать элемент <b>tr</b> два раза.
